@@ -1,0 +1,75 @@
+body {
+  margin: 0px;
+  padding: 0px;
+  font-family: "Red Hat Display", sans-serif;
+  background-color: hsl(225, 100%, 98%);
+}
+
+body p {
+  font-size: 16px;
+}
+
+.background-img {
+  background-repeat: no-repeat;
+  width: 100%;
+  position: fixed;
+  z-index: -1;
+  opacity: 0.6;
+}
+
+.main-card-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.card-container {
+  background-color: white;
+  display: flex;
+  flex-direction: column;
+  width: 450px;
+  border-radius: 30px;
+}
+
+.hero-img {
+  border-radius: 30px 30px 0px 0px;
+}
+
+.order-sum {
+  display: flex;
+  justify-content: center;
+}
+
+.order-sum h2 {
+  font-weight: 900;
+}
+
+
+.info-text {
+  text-align: center;
+}
+
+.annual-plan-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  background-color: hsl(225, 100%, 98%);
+  margin: 10px;
+  padding: 20px;
+  border-radius: 10px;
+}
+
+.annual-plan-text {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+button {
+  border: none;
+  background-color: rgb(31, 29, 185);
+  padding: 10px;
+}
